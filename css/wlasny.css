@@ -1,0 +1,114 @@
+/* CZCIONKI 
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Fira Sans Extra Condensed', sans-serif; */
+
+/* GŁÓWNE STYLE */
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+/* TYPOGRAFIA */
+h1, h2, h3, p{
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 2px;
+}
+
+/* MENU */
+#menu{
+	background-color: #666666;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+}
+.navbar{
+	background-color: #666666;
+	color: #ffffff;
+	border-color: #666666;
+}
+.navbar-inverse .navbar-nav > li > a{
+	color: #ffffff;
+	font-size: 1.5rem;
+	font-weight: 200;
+	margin-left: 2px;
+	border: 1px solid transparent;
+	line-height: 1rem;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+	display: block;
+	color: #ffffff;
+	border: 2px solid transparent;
+	border-color: #fded02;
+	line-height: 1rem;
+	border-radius: 2px;
+	transition: all 0.7s ease;
+}
+.navbar-inverse .navbar-nav > .active > a{
+	display: block;
+	border-color: #fded02;
+	background-color: #666666;
+	border-radius: 4px;
+}
+
+#logo img{
+	padding-top: 2px;
+}
+/* BANNER */
+#banner{
+	margin-top: 7.3rem;
+}
+
+/* O NAS */
+#O_NAS h2{
+	padding-top: 2rem;
+	color: #666666;
+	text-align: center;
+}
+
+#O_NAS p{
+	font-size: 25px;
+	padding-top: 2rem;
+}
+#wojewodztwo p{
+	text-align: center;
+	padding-top: 3rem;
+}
+#O_NAS hr{
+  width: 300px;
+  height: 3px;
+  background-color: #fded02;
+ }
+
+ /* NASZA OFERTA */
+ #oferta h2{
+ 	color: #666666;
+ 	text-align: center;
+ }
+
+ #oferta hr{
+ 	width: 300px;
+ 	height: 3px;
+ 	background-color: #fded02;
+ }
+ #oferta img{
+ 	padding-left: 10rem;
+ }
+#lik hr{
+	width: 150px;
+	height: 1.5px;
+	background-color: #fded02;
+}
+#lik p{
+	font-size: 18px;
+	font-weight: 700;
+}
+
+#lik1 h2{
+	padding-top: 4.3rem;
+}
+#lik a{
+	margin-left: 15rem;
+	color: #ffffff;
+	background-color: #666666;
+}
