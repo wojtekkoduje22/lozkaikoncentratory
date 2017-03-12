@@ -10,9 +10,21 @@ body{
 }
 
 /* TYPOGRAFIA */
-h1, h2, h3, p{
+h1, h2, h3, ul, li, p{
 	font-family: 'Open Sans', sans-serif;
 	padding-top: 2px;
+}
+
+hr{
+  width: 150px;
+  height: 4px;
+  background-color: #fded02;
+}
+
+h2{
+	padding-top: 2rem;
+	color: #666666;
+	text-align: center;
 }
 
 /* MENU */
@@ -60,11 +72,6 @@ h1, h2, h3, p{
 }
 
 /* O NAS */
-#O_NAS h2{
-	padding-top: 2rem;
-	color: #666666;
-	text-align: center;
-}
 
 #O_NAS p{
 	font-size: 25px;
@@ -73,32 +80,15 @@ h1, h2, h3, p{
 #wojewodztwo p{
 	text-align: center;
 	padding-top: 3rem;
-}
-#O_NAS hr{
-  width: 300px;
-  height: 3px;
-  background-color: #fded02;
- }
+} 
+
 
  /* NASZA OFERTA */
- #oferta h2{
- 	color: #666666;
- 	text-align: center;
- }
 
- #oferta hr{
- 	width: 300px;
- 	height: 3px;
- 	background-color: #fded02;
- }
- #oferta img{
+#oferta img{
  	padding-left: 10rem;
  }
-#lik hr{
-	width: 150px;
-	height: 1.5px;
-	background-color: #fded02;
-}
+
 #lik p{
 	font-size: 18px;
 	font-weight: 700;
@@ -111,4 +101,41 @@ h1, h2, h3, p{
 	margin-left: 15rem;
 	color: #ffffff;
 	background-color: #666666;
+}
+
+/* ŁÓŻKA */
+
+#lozka ul{
+	margin-top: 2rem;
+	font-size: 20px;
+}
+#lozka p{
+	font-size: 20px;
+	padding-top: 1rem;
+}
+
+/* KONCENTRATORY */
+#koncentratory p{
+	font-size: 20px;
+	padding-top: 1rem;
+}
+
+/* TRANSPORT */
+#transport p{
+	font-size: 20px;
+	padding-top: 1rem;
+	margin-top: 12rem;
+}
+
+/* STOPKA */
+#stopka{
+	background-color: #666666;
+}
+#stopka p{
+	color: #ffffff;
+	font-size: 14px;
+	
+}
+#stopka a{
+	color: #ffffff;
 }
